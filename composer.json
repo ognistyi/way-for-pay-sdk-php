@@ -3,8 +3,7 @@
   "description": "WayForPay SDK + Yii2 component",
   "license": "MIT",
   "require": {
-    "php": "^7.0",
-    "illuminate/database": "^7.0"
+    "php": "^7.0"
   },
   "require-dev": {
   },
