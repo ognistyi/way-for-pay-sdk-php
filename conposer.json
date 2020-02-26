@@ -1,0 +1,18 @@
+{
+  "name": "ognistyi/way-for-pay-sdk-php",
+  "description": "WayForPay SDK + Yii2 component",
+  "license": "MIT",
+  "require": {
+    "php": "^7.0",
+    "illuminate/database": "^7.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Ognistyi\\WayForPay\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable" : true
+}
