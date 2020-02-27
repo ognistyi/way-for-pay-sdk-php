@@ -8,4 +8,9 @@ class WayForPayComponent extends BaseObject
 {
     public $merchantAccount;
     public $merchantSecretKey;
+
+    public function make()
+    {
+        return new WayForPay($this->merchantAccount, $this->merchantSecretKey);
+    }
 }
